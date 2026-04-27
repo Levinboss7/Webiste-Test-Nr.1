@@ -1,15 +1,122 @@
-<h1>Hallo Welt!</h1>
-<p>Dies ist eine einfache HTML-Seite.</p>
-<p>Hier ist ein Link zu <a href="https://www.youtube.com/watch?v=meHNyQfkuwk&ab_channel=empty.">Deisem Video</a>.</p>
-<p>Hier ist kein Bild:</p>
-<p>Hier ist eine Liste:</p>
-<ul>
-    <li>Nein</li>
-    <li>Ja</li>
-    <li>Aufjedenfall</li>
-</ul>
-<p>Hier ist ein Zitat:</p>
-<blockquote>
-    <p style="color: red;">The two most important days of your life are the day you are born and the day you find out why.</p>
-    <footer>— Mark Twain</footer>
-<p>Hier ist kein Video:</p>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Der Döner Laden</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+}
+
+header {
+    background: url('https://images.unsplash.com/photo-1604908812022-1d6b6b6b6b6b') center/cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+.btn {
+    background: #ff3c00;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 8px;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background: #000;
+    padding: 20px;
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div>
+        <h1>🔥 Frischer Döner. Schnell geliefert.</h1>
+        <p>In 30 Minuten bei dir zuhause</p>
+        <a href="https://derdönerladen.günstigbestellen.de" class="btn">Jetzt bestellen</a>
+    </div>
+</header>
+
+<section class="section">
+    <h2>⭐ Unsere Bestseller</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398">
+            <h3>Döner Menü</h3>
+            <p>🔥 Beliebt</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1598514982846-7f9c1d5c0c1c">
+            <h3>Döner Pizza</h3>
+            <p>🔥 Bestseller</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56">
+            <h3>Lahmacun</h3>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>🔥 Angebote</h2>
+    <p>Döner + Getränk nur 9,99€</p>
+    <p>Familien Menü ab 25€</p>
+</section>
+
+<section class="section">
+    <h2>🚀 Warum wir?</h2>
+    <p>✔ Frische Zutaten</p>
+    <p>✔ Schnelle Lieferung</p>
+    <p>✔ Große Portionen</p>
+</section>
+
+<section class="section">
+    <a href="https://derdönerladen.günstigbestellen.de" class="btn">Jetzt bestellen</a>
+</section>
+
+<footer>
+    <p>©️ Der Döner Laden</p>
+</footer>
+
+</body>
+</html>
